@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#banner {
+    background-color: #000000; 
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+#content {
+    font-size: 14pt;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20;
+    text-align:justify;
+}
+
+#leftcolumn {
+    float: left;
+    width: 310px;
+    margin-bottom: 2em;
+}
+
+#rightcolumn {
+    float: right;
+    width: 310px;
+    margin-bottom: 2em;
+}
+
+#footer {
+    /* border-top: 2px solid #111111; */
+    font-size: xx-small;
+    text-align: right;	
+}
+
+h1 {
+    line-height: 70px;
+}
+
+h2 {
+	text-transform: uppercase;
+	/*font-variant: small-caps;*/
+	font-size: 20px;
+	line-height: 28px;
+	margin-top: 32px;
+	margin-bottom: 0.5em;
+	border-bottom: 2px solid #1D1D1D;
+}
+
+a:link, a:visited { /* unvisited and visted links */
+    color: #4582B3; 
+    text-decoration: none;
+}  
+
+
+p.reference {
+    /* font-size: 16px; */
+    text-indent: -1em;
+    padding-left: 1em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+p.reference cite {
+    font-style: normal;
+    font-weight: normal;
+    font-variant: small-caps;
+}
